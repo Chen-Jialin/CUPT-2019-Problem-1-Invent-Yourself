@@ -1,0 +1,12 @@
+close all,clc;
+plot(t3,theta3,'.','markersize',16);
+grid on;
+hold on;
+xlabel('时间t / s','interpreter','tex','fontsize',18);
+ylabel('转子转过的角度\phi / rad','interpreter','tex','fontsize',18);
+xlim([0,5]);
+ylim([0,350]);
+% x = 0:0.01:5;
+% y = -902.9*exp(-0.1647*x)-40.71*x+ 905.2;
+% plot(x,y,'-','linewidth',2);
+% legend('数据点','拟合线','fontsize',14);
